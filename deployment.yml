@@ -20,3 +20,7 @@ spec:
         image: stephencsmall/docker-hello-world:latest
         ports:
         - containerPort: 80
+      - name: gopek-pod
+        image: stephencsmall/gopek-server:latest
+        ports:
+        - containerPort: 8888
